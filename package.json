@@ -1,6 +1,7 @@
 {
   "name": "carbon-emissions",
   "version": "0.1.0",
+  "description": "Recommendations for offsetting your carbon emissions",
   "private": true,
   "scripts": {
     "dev": "next dev",
