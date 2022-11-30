@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "ts-check": "tsc"
   },
   "dependencies": {
     "@types/node": "18.11.9",
