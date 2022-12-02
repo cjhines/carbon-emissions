@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.itemContainer {
+  display: flex;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  color: black;
+}
