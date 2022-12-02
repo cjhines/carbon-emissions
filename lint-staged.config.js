@@ -1,6 +1,7 @@
 module.exports = {
-  "app/**/*.{ts,tsx,d.ts}": [
-    "node_modules/.bin/eslint --fix",
-    "git add",
+  'app/**/*.{ts,tsx,d.ts}': [
+    'node_modules/.bin/eslint --fix',
+    'node_modules/.bin/prettier --write',
+    'git add',
   ],
 };
