@@ -1,3 +1,4 @@
+import classNames from 'classnames';
 import React, { FunctionComponent } from 'react';
 
 import styles from './NavBar.module.css';
@@ -21,7 +22,12 @@ interface NavBarItem {
 
 const NavBar: FunctionComponent = () => {
   const renderItem = (item: NavBarItem) => {
-    return <div className={styles.itemContainer}>{item.title}</div>;
+    const className = classNames(styles.itemContainer, styles.underline);
+    return (
+      <div className={className} key={item.title}>
+        {item.title}
+      </div>
+    );
   };
 
   return <div className={styles.container}>{items.map(renderItem)}</div>;

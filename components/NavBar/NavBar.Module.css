@@ -9,6 +9,34 @@
 .itemContainer {
   display: flex;
   padding-top: 2em;
-  padding-bottom: 2em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-bottom: 1.5em;
+  cursor: pointer;
   color: black;
+}
+
+.underline {
+  position: relative;
+  text-decoration: none;
+  color: #000;
+}
+
+.underline:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  right: 0;
+  top: 2;
+  margin: auto;
+  height: 4px;
+  width: 0%;
+  background-color: black;
+  transition: all ease-in-out 0.3s;
+}
+
+.underline:hover:after {
+  width: 100%;
 }
