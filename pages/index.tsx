@@ -34,8 +34,6 @@ export default function Home() {
         </Head>
 
         <main className={styles.main}>
-          <h1 className={styles.title}>Coming soon</h1>
-
           <h2 className={styles.description}>
             Direct, frontline support for environmental and climate justice
           </h2>
