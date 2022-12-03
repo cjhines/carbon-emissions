@@ -17,9 +17,9 @@ export default function Home() {
         <main className={styles.main}>
           <h1 className={styles.title}>Carbon emissions</h1>
 
-          <p className={styles.description}>
+          <h2 className={styles.description}>
             Coming soon: Frontline support for environmental and climate justice
-          </p>
+          </h2>
         </main>
       </div>
     </>
