@@ -28,7 +28,7 @@ export default function Home() {
           <title>Coming soon</title>
           <meta
             name="description"
-            content="Direct, frontline support for environmental and climate justice"
+            content="Direct frontline support for environmental and climate justice"
           />
           <link rel="icon" href="/favicon.png" />
         </Head>
